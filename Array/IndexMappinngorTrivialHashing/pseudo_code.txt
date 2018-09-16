@@ -1,0 +1,11 @@
+2D array hash[MAX+1][2]
+Assignn all the values of the hash matrix as 0.
+Traverse the given array:
+	If the element ele is non negative assign
+		hash[ele][0] as 1.
+	Else take the absolute value as ele and
+		hash[ele][1] as 1.
+
+To search any element x in the array.
+	If x is non-negative, check if hash[x][0] is one thenn the number is present, else not present.
+	If x is negative, take absoulute value of x: y = abs[x] and then check if hash[y][1] is 1 or not. If hash[x][1] is one then the number is present. 
